@@ -12,3 +12,5 @@ flyway:
   enabled: true
   locations:
     - 'classpath:db/migration'
+  ignore-missing-migrations: true
+  out-of-order: true
